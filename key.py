@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from httplib2 import Http
 from oauth2client import file,client,tools
 
-scope = 'https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/gmail.compose https://www.googleapis.com/auth/gmail.compose https://mail.google.com/'
+scope = 'https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/gmail.modify'
 client_secret = 'client_secret.json'
 http = Http()
 
